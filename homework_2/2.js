@@ -6,8 +6,11 @@
 */
 
 let test = confirm("У вас много денег?");
-if (test === true) {
-  console.log("Скоро будем у вас ;)");
-} else {
-  console.log("До свидания.");
-}
+
+alert(test === true ? "Скоро будем у вас ;)" : "До свидания.");
+
+// if (test === true) {
+//   console.log("Скоро будем у вас ;)");
+// } else {
+//   console.log("До свидания.");
+// }
