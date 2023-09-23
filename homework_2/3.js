@@ -25,5 +25,5 @@ if (dayNumber >= 1 && dayNumber < 11) {
 } else if (dayNumber >= 21 && dayNumber < 32) {
   alert(`Число ${dayNumber} попадает в 3-ю декаду месяца.`);
 } else {
-    alert('Некорректный ввод');
+  alert('Некорректный ввод');
 }

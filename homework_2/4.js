@@ -24,7 +24,8 @@
 */
 
 const num = Number.parseInt(prompt("Введите целое число: "));
+const hundreds = Math.trunc(num / 100) % 10;
+const tens = Math.trunc(num / 10) % 10;
+const units = num % 10;
 
-alert(
-  `В числе ${num} количество сотен: ${Math.trunc(num / 100) % 10}, десятков: ${Math.trunc(num / 10) % 10}, единиц: ${num % 10}`
-);
+alert(`В числе ${num} количество сотен: ${hundreds}, десятков: ${tens}, единиц: ${units}`);
