@@ -23,4 +23,9 @@
 Подсказка: Возможно, вам понадобится округление чисел и оператор %.
 */
 
-// Здесь пишем решение, данный комментарий необходимо стереть.
+const num = Number.parseInt(prompt("Введите целое число: "));
+const hundreds = Math.trunc(num / 100) % 10;
+const tens = Math.trunc(num / 10) % 10;
+const units = num % 10;
+
+alert(`В числе ${num} количество сотен: ${hundreds}, десятков: ${tens}, единиц: ${units}`);
