@@ -19,6 +19,10 @@ for (let i = 0; i < 5; i++) {
   arr.push(Math.floor(Math.random() * 10));
 }
 console.log(arr);
+console.log(
+  `Сумма элементов массива с помощью reduce: ${arr.reduce((a, b) => a + b)}`
+);
+
 sum(arr);
 searchMin(arr);
 showIndex(arr);
